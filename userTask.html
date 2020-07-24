@@ -1,3 +1,5 @@
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,93 +9,148 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./assets/css/userTask.css" />
-  <title>Hng board - user task</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/userTask.css" />
+  <title>HNG-BOARD | user-task</title>
 </head>
 
 <body>
+  <section id="sidebar">
+    <div class="sidebar-profile">
+      <img src="./assets/images/mainpage images/image 5.png" alt="" class="sidebar-profile-img">
+      <h5 class="sidebar-profile-name mt-2">Franklyn B.Epidi</h5>
+      <p class="sidebar-profile-id mt-1">INTERNSHIP ID: HNG-05406</p>
+    </div>
+
+    <div class="sidebar-links">
+      <a href="#" class="sidebar-nav-link">
+        <img src="./assets/images/mainpage images/dashboard-icon.png" alt="" class="sidebar-nav-link-img">
+        <p class="sidebar-nav-link-text align-self-center">Dashboard</p>
+      </a>
+
+      <a href="#" class="sidebar-nav-link">
+        <img src="./assets/images/mainpage images/tasks-icon.png" alt="" class="sidebar-nav-link-img">
+        <p class="sidebar-nav-link-text">Tasks</p>
+      </a>
+
+      <a href="#" class="sidebar-nav-link">
+        <img src="./assets/images/mainpage images/posts-icon.png" alt="" class="sidebar-nav-link-img">
+        <p class="sidebar-nav-link-text">Posts</p>
+      </a>
+
+      <a href="#" class="sidebar-nav-link">
+        <img src="./assets/images/mainpage images/calendar-icon.png" alt="" class="sidebar-nav-link-img">
+        <p class="sidebar-nav-link-text">Calendar</p>
+      </a>
+
+      <a href="#" class="sidebar-nav-link sidebar-logout-link">
+        <img src="./assets/images/mainpage images/logout-icon.png" alt="" class="sidebar-nav-link-img">
+        <p class="sidebar-nav-link-text">Log Out</p>
+      </a>
+    </div>
+  </section>
+
+  <header id="topbar" class="d-flex align-items-center justify-content-between">
+    <div class="topbar-left">
+      <img src="./assets/images/mainpage images/hamburger.png" alt="" class="nav-toggle-img" id="nav-toggle">
+      <h2 class="topbar-head-text">Dashboard</h2>
+    </div>
+
+    <div class="topbar-right d-flex align-items-center">
+      <p class="topbar-email my-auto mr-5">Franklunb.e@gmail.com</p>
+      <img src="./assets/images/mainpage images/bell.png" alt="" class="topbar-icon">
+    </div>
+  </header>
 
   <!-- user task section -->
 
-  <section id="userTask">
-    <div class="row mb-3 mb-md-4">
-      <div class="col-sm-12 col-md-4 mb-4">
-        <div class="card">
-          <div class="card-body p-5">
-            <h3 class="card-title">Submit Task</h3>
-            <form>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">
-                  <h6>submit your Task Link Here</h6>
-                </label>
-                <input type="text" class="form-control col-8 bg-light">
+  <main id="userTask" class="ml-0 ml-md-5 pl-0 pl-md-5 bg-light">
+    <section class="mt-0 mt-md-5 pt-3 pt-md-5 pl-0 pl-md-5">
+      <div class="container mt-5 pt-3 pl-0 pl-md-5">
+        <div class="row mb-3 mb-md-4 ml-0 ml-md-5">
+          <div class="col-sm-12 col-md-5 col-lg-6 mb-4 mt-5 mt-md-0">
+            <div class="card">
+              <div class="card-body p-5">
+                <h3 class="card-title">Submit Task</h3>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">
+                      <h6>submit your Task Link Here</h6>
+                    </label>
+                    <input type="text" class="form-control col-8 bg-light">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">
+                      <h6>Your Comment</h6>
+                    </label>
+                    <textarea class="form-control col-8 bg-light" rows="4"></textarea>
+                  </div>
+                </form>
               </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">
-                  <h6>Your Comment</h6>
-                </label>
-                <textarea class="form-control col-8 bg-light" rows="4"></textarea>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-5 col-lg-6 mb-4">
+            <div class="card">
+              <div class="card-body p-5">
+                <h3 class="card-title pb-3"> Stage 8 Entry Task: HNG Website Redesign</h3>
+                <ol>
+                  <li>Sign In User</li>
+                  <li>Sign In Admin</li>
+                  <li>Sign Up Admin</li>
+                  <li>Sign Up User</li>
+                  <li>Dashboard User</li>
+                </ol>
+                <p>Deadline: 31/07/2020 12:00 AM</p>
+                <div class="row">
+                  <div>
+                    <button class="btn btn-sm rounded bg-warning mr-3 px-3 py-0 text-white">
+                      DESIGN
+                    </button>
+                  </div>
+                  <div>
+                    <button class="btn btn-sm rounded bg-dark px-3 py-0 text-white">
+                      PENDING
+                    </button>
+                  </div>
+                </div>
               </div>
-            </form>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn rounded bg-warning px-3 text-white">
+              Submit
+            </button>
           </div>
         </div>
-      </div>
-      <div class="col-sm-12 col-md-4 mb-4">
-        <div class="card">
-          <div class="card-body p-5">
-            <h3 class="card-title pb-3"> Stage 8 Entry Task: HNG Website Redesign</h3>
-            <ol>
-              <li>Sign In User</li>
-              <li>Sign In Admin</li>
-              <li>Sign Up Admin</li>
-              <li>Sign Up User</li>
-              <li>Dashboard User</li>
-            </ol>
-            <p>Deadline: 31/07/2020 12:00 AM</p>
-            <div class="row">
-              <div>
-                <button class="btn btn-sm rounded bg-warning mr-3 px-3 py-0 text-white">
-                  DESIGN
-                </button>
-              </div>
-              <div>
-                <button class="btn btn-sm rounded bg-dark px-3 py-0 text-white">
-                  PENDING
-                </button>
+        <div class="row ml-0 ml-md-5">
+          <div class="col-sm-12 col-md-5 col-lg-6 mb-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <h3 class="card-title pb-3">All Tasks</h3>
+                <p>Below are all your tasks</p>
+                <hr class="w-100">
+                <div class="row">
+                  <div>
+                    <button class="btn btn-sm rounded bg-warning mr-3 px-3 py-0 text-white">
+                      DESIGN
+                    </button>
+                  </div>
+                  <div>
+                    <button class="btn btn-sm rounded bg-dark px-3 py-0 text-white">
+                      PENDING
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-12">
-        <button class="btn rounded bg-warning px-3 text-white">
-          Submit
-        </button>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-4 mb-4">
-        <div class="card">
-          <div class="card-body p-5">
-            <h3 class="card-title pb-3">All Tasks</h3>
-            <p>Below are all your tasks</p>
-            <div class="row">
-              <div>
-                <button class="btn btn-sm rounded bg-warning mr-3 px-3 py-0 text-white">
-                  DESIGN
-                </button>
-              </div>
-              <div>
-                <button class="btn btn-sm rounded bg-dark px-3 py-0 text-white">
-                  PENDING
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
+
+
+
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -106,7 +163,6 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
   <script src="./assets/scripts/script.js"></script>
-
 </body>
 
 </html>
