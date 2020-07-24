@@ -211,7 +211,7 @@ font-size: 18px;
     padding-top: 30px;
     position: relative;
     bottom: 50%;
-    left:15%;
+    left:20%;
 }
 .activity h2{
 padding-top: 60px;
@@ -239,26 +239,6 @@ padding-top: 60px;
         font-weight: bold;
         font-size: 1.2em;
     }
-    .analytics-stat{
-        width: 100%;
-        text-align: center;
-        padding-bottom: 41px;
-    }
-    
-    .sidebar-profile-id {
-        font-size: .9em;
-    }
-    
-    .sidebar-profile-img {
-        width: 40%;
-        height: auto;
-    }
-    .analytics{
-        margin: 0 auto;
-    }
-    .data{
-        margin: 60px auto;
-    }
     .activity img{
         margin-top: 44px;
         margin-left: 12px;
@@ -269,16 +249,8 @@ padding-top: 60px;
         padding-top: 30px;
         position: relative;
         bottom: 50%;
-        left:25%;
+        left:20%;
     }
-    #main-page {
-    position: relative;
-    top: 13%;
-    left: 10%;
-    width: 100%;
-    margin: 0 auto;
-    
-}
 }
 
 
@@ -357,7 +329,7 @@ padding-top: 60px;
         padding-top: 30px;
         position: relative;
         bottom: 50%;
-        left:25%;
+        left:20%;
     }
     #main-page {
     position: relative;
