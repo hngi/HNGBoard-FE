@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.signin {
+    padding: 4rem 3rem;
+}
+
+.signin-para {
+    background: #10507A;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.signin-para h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.signin-para p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.btn-blue {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #10507A;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    padding: .4rem 1rem .6rem 1rem;
+}
+
+.signin-body {
+    background: #FFFFFF;
+    border: 1px solid #10507A;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 0px;
+    padding: 3rem 2rem 3rem 6rem;
+}
+
+.signin-body .hng {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: right;
+    color: #10507A;  
+    margin-bottom: 2.5rem;  
+}
+
+.signin-body .hng-sign {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #10507A;
+    margin-bottom: 2.5rem;  
+}
+
+.signin-body label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #10507A;
+}
+
+.signin-form {
+    width: 311px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #10507A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 2rem;  
+    color: rgba(16, 80, 122, 0.7);
+}
+
+.signin-form:focus {
+    box-shadow: none;
+    border: 1px solid #10507A;
+    color: rgba(16, 80, 122, 0.7);
+}
+
+.signin-body .forgot {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FF9501;
+}
+
+.signin-body form {
+    position: relative;
+}
+
+.signin-body span {
+    position: absolute;
+    bottom: 11.4rem;
+    right: 11.5rem;
+}
+
+.signin-para .hng1 {
+    display: none;
+}
+
+
+
+@media(max-width:1200px) {
+    .signin-body span {
+        bottom: 11.4rem;
+        right: 5rem;
+    }
+}
+
+@media(max-width:992px) {
+    .signin-para {
+        padding: 0 1rem;
+    }
+    .signin-body {
+        padding: 3rem 2rem 3rem 2rem;
+    }
+    .signin-body span {
+        bottom: 11.4rem;
+        right: 1rem;
+    }
+    
+}
+
+@media(max-width:767px) {
+    .signin-para {
+        border-radius: 10px 0px 0px 0px;
+        align-items: center;
+        padding: 0 3rem;
+        height: 487px;
+    }
+
+    .signin-para .hng1 {
+        display: inline-block;
+        text-align: left;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 39px;
+        color: #FFFFFF;
+        margin-bottom: 3rem;
+    }
+
+    .signin-body {
+        border-radius: 0;
+        padding-bottom: 9rem;
+    }
+
+    .signin-body .hng {
+        display: none;
+    }
+
+    .signin-body span {
+        bottom: 11.4rem;
+        right: 6rem;
+    }
+
+    .signin-para p {
+        margin-bottom: 3rem;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .signin-para h3{
+        font-size: 36px;
+        line-height: 47px;
+    }
+    
+    
+        
+}
+
+@media(max-width:567px) {
+    .signin-form {
+        width: 100%;
+    }
+    .signin-body span {
+        bottom: 11.4rem;
+        right: 1.5rem;
+    }
+
+}
+
+@media(max-width:375px) {
+    .signin-body span {
+        bottom: 13rem;
+        right: 1.5rem;
+    }
+
+}
