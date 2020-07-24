@@ -1,0 +1,280 @@
+
+:root {
+  --main-orange: #FF9501;
+  --main-grey: #E5E5E5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  background-color: #E5E5E5;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@keyframes NAME-YOUR-ANIMATION {
+  0%   { width: 0; }
+  100% { width: 250px; }
+}
+
+#box {
+  -webkit-animation: NAME-YOUR-ANIMATION 5s infinite; /* Safari 4+ */
+  -moz-animation:    NAME-YOUR-ANIMATION 5s infinite; /* Fx 5+ */
+  -o-animation:      NAME-YOUR-ANIMATION 5s infinite; /* Opera 12+ */
+  animation:         NAME-YOUR-ANIMATION 5s infinite; /* IE 10+, Fx 29+ */
+}
+
+#sidebar {
+  background: #10507A;
+  /* background: #000; */
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  color: white;
+  padding-top: 5em;
+  overflow-y: scroll;
+}
+
+.sidebar-profile {
+  text-align: center;
+}
+
+.sidebar-profile-name {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.sidebar-profile-id {
+  font-size: 1em;
+}
+
+.sidebar-profile-img {
+  width: 50%;
+  height: auto;
+}
+
+.sidebar-links {
+  padding-top: 3em;
+}
+
+.sidebar-nav-link {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  padding: 1em 2em;
+  margin-bottom: 1.5em;
+}
+
+.sidebar-nav-link-text {
+  font-size: 1.3em;
+  color: white;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1em;
+}
+
+.sidebar-logout-link {
+  margin-top: 6em;
+  margin-bottom: 4.5em;
+}
+
+#topbar {
+  background: #10507A;
+  position: fixed;
+  height: 10%;
+  left: 22%;
+  width: 78%;
+  z-index: 999;
+  color: white;
+  border: transparent;
+  border-radius: 15px 0px 0px 15px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.topbar-email {
+  font-size: 1em;
+}
+
+.topbar-head-text {
+  font-weight: 500;
+}
+
+.nav-toggle-img {
+  display: none;
+}
+
+#admin-task-creation {
+  position: relative;
+  top: 13%;
+  left: 22%;
+  width: 78%;
+}
+
+
+/* MEDIA QUERY */
+@media(max-width: 1200px) {
+  .sidebar-nav-link-text {
+      font-size: 1.2em;
+      margin-left: 1em;
+  }
+
+  .sidebar-nav-link {
+      grid-template-columns: 1fr 4fr;
+      padding: 1em 1em;
+      margin-bottom: 1.5em;
+  }
+
+  .sidebar-profile-name {
+      font-weight: bold;
+      font-size: 1.2em;
+  }
+  
+  .sidebar-profile-id {
+      font-size: .9em;
+  }
+  
+  .sidebar-profile-img {
+      width: 40%;
+      height: auto;
+  }
+}
+
+
+/* MEDIA QUERY */
+
+/* MEDIA QUERY */
+@media(max-width: 992px) {
+  #sidebar {
+      width: 0%;
+  }
+
+  #topbar {
+      left: 0;
+      width: 100%;
+      border-radius: 0;
+  }
+
+  #admin-task-creation {
+      left: 0;
+      width: 100%;
+  }
+
+  .topbar-left {
+      display: flex;
+      align-items: center;
+      /* border: 1px solid black; */
+  }
+
+  .topbar-head-text {
+      margin-left: 1em;
+  }
+
+  .nav-toggle-img {
+      display: block;
+      height: auto;
+      width: 11%;
+      /* margin-top: .3em; */
+      cursor: pointer;
+      transition: 0.3s;
+      transition-property: opacity;
+      /* width: 13%; */
+  }
+
+  .nav-toggle-img:hover {
+      opacity: 0.5;
+  }
+
+  .sidebar-active {
+      width: 250px !important;
+      z-index: 999999 !important;
+      position: fixed !important;
+      top: 10%;
+      /* transition: .5s; */
+  }
+
+}
+
+/* MEDIA QUERY */
+@media(max-width: 768px) {
+  .topbar-email {
+      display: none;
+  }
+}
+
+
+/* main page for admin task creation*/
+
+.metric {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.metric:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.metric .icon {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  float: left;
+  width: 68px;
+  height: 68px;
+  line-height: 50px;
+  background-color: var(--main-orange);
+  text-align: center;
+}
+.metric p {
+  margin-bottom: 0;
+  line-height: 1.2;
+  text-align: right;
+}
+.metric .number {
+  font-size: 28px;
+  font-weight: 500;
+}
+.metric .title {
+  display: block;
+  font-size: 16px;
+}
+
+button.addnew-btn {
+  background-color: var(--main-orange);
+ 
+
+}
+
+.tasks-list p{
+  width: 70px;
+}
+
+.bookmark {
+  color: var(--main-orange);
+}
+
+.task-item {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+  border-radius: 5px;
+}
+
+.task-item:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
