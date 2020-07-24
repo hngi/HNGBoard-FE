@@ -1,0 +1,209 @@
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<title>Basic Template</title>
+	</head>
+	<body>
+        <section id="sidebar">
+			<div class="sidebar-profile">
+				<img src="./assets/images/Ellipse 10.png" alt="" class="sidebar-profile-img">
+				<h5 class="sidebar-profile-name mt-2">Seyi Onifade</h5>
+				<p class="sidebar-profile-id mt-1">Administrator</p>
+			</div>
+
+			<div class="sidebar-links">
+				<a href="#" class="sidebar-nav-link">
+					<img src="./assets/images/mainpage images/dashboard-icon.png" alt="" class="sidebar-nav-link-img">
+					<p class="sidebar-nav-link-text align-self-center">Dashboard</p>
+				</a>
+
+				<a href="#" class="sidebar-nav-link">
+					<img src="./assets/images/mainpage images/tasks-icon.png" alt="" class="sidebar-nav-link-img">
+					<p class="sidebar-nav-link-text">Tasks</p>
+				</a>
+
+				<a href="#" class="sidebar-nav-link">
+					<img src="./assets/images/mainpage images/posts-icon.png" alt="" class="sidebar-nav-link-img">
+					<p class="sidebar-nav-link-text">Posts</p>
+				</a>
+
+				<a href="#" class="sidebar-nav-link">
+					<img src="./assets/images/mainpage images/calendar-icon.png" alt="" class="sidebar-nav-link-img">
+					<p class="sidebar-nav-link-text">Calendar</p>
+				</a>
+
+				<a href="#" class="sidebar-nav-link sidebar-logout-link">
+					<img src="./assets/images/mainpage images/logout-icon.png" alt="" class="sidebar-nav-link-img">
+					<p class="sidebar-nav-link-text">Log Out</p>
+				</a>
+			</div>
+        </section>
+
+        <header id="topbar" class="d-flex align-items-center justify-content-between">
+			<div class="topbar-left">
+				<img src="./assets/images/mainpage images/hamburger.png" alt="" class="nav-toggle-img" id="nav-toggle">
+				<h2 class="topbar-head-text">Dashboard</h2>
+			</div>
+			
+			<div class="topbar-right d-flex align-items-center">
+				<p class="topbar-email my-auto mr-5">Franklunb.e@gmail.com</p>
+				<a href="#"><img class="topnav-img" src="./assets/images/Ellipse 10.png" alt=""></a>
+				<a href="#"><img class="arrow" src="./assets/images/_.png" alt=""></a>
+				<img src="./assets/images/mainpage images/bell.png" alt="" class="topbar-icon">
+			</div>	
+        </header>
+
+        <main id="main-page">
+            <section >
+				<div class="container-fluid" style="margin-bottom: 100px;">
+					<div class="row analytics">
+						<div  class="col-md-8 analytics-content">
+							<h2 class="analytics-text">Task Analytics</h2>
+							<img style="padding-bottom: 111px; width: 100%;" src="./assets/images/Chart.png" alt="">
+						</div>
+						<div class="col-md-4 analytics-stat">
+							<div class="analytics-data">
+								<p><b>Tasks Submitted</b><br>
+								450 Users (69%)</p>
+							<div class="bars">
+								<img src="./assets/images/Bar1.png" alt="">
+							</div>
+								
+							</div>
+							<div class="analytics-data">
+								<p><b>Tasks Submitted</b><br>
+									130 Users (18%)</p>
+								<div class="bars">
+									<img src="./assets/images/Bar2.png" alt="">
+								</div>
+							</div>
+							<div class="analytics-data">
+								<p><b>Tasks Submitted</b><br>
+									10 Users (5%</p>
+								<div class="bars">
+									<img src="./assets/images/Bar3.png" alt="">
+								</div>
+							</div>
+							<div class="analytics-data">
+								<p><b>Tasks Submitted</b><br>
+									2 Users (1%)</p>
+								<div class="bars">
+									<img src="./assets/images/Bar4.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row data">
+						<div  class="col-md-5 interns-data">
+							<h2>Interns Data</h2>
+							<p>Total Number of Interns: 582</p>
+							<p>Deactivated: 196</p>
+							<p>Probation: 12</p>
+						</div>
+						<div class="col-md-1"></div>
+						<div   class="col-md-6 interns-data">
+								<h2>Channel Data</h2>
+								<p>Total Number of Channels : 16</p>
+								<p>Archived : 34</p>
+								<p >Deleted : 12</p>
+						</div>
+						
+					</div>
+
+
+					<div class="row data">
+						<div  class="col-md-5 interns-location">
+								<div class="heading">
+										<h2>Interns by Location</h2>
+								</div>
+								<img style="width: 100%; padding-bottom: 40px;" src="./assets/images/worldmap.png" alt="">
+							
+								<p>Nigeria <span>
+									<img style="width:250px;" src="./assets/images/NigBar.png" alt="">
+									</span> 89%
+								</p>
+								<p>India &ensp;&nbsp; <span>
+									<img style="width:250px;" src="./assets/images/IndBar.png" alt="">
+									</span> 70%
+								</p>
+								<p>USA &ensp;&nbsp;&nbsp; <span>
+									<img style="width:250px;" src="./assets/images/USbar.png" alt="">
+									</span> 50%
+								</p>
+								<p>China &ensp; <span>
+										<img style="width:250px;" src="./assets/images/ChinaBar.png" alt="">
+										</span> 43%
+								</p>
+								<p>Ghana &nbsp; <span>
+									<img style="width:250px;" src="./assets/images/GhBar.png" alt="">
+									</span> 76%
+								</p>
+								
+
+						</div>
+						<div class="col-md-1"></div>
+						<div   class="col-md-6 activity">
+									<h2>Recent Activity</h2>
+									
+									<img src="./assets/images/mark.png" alt="">
+									<span>
+										<p class="activity-text"><b>Task Created</b></br>
+											Created a new task for Team Avengers</br>
+											<span style="color:#FF9501;">10 Minutes Ago</span>
+										</p>
+									
+									</span>
+
+									<img src="./assets/images/mark.png" alt="">
+									<span style="padding-bottom:64px;">
+										<p class="activity-text"><b>Database Update</b></br>
+											Database was updated</br>
+											<span style="color:#FF9501;">45 Minutes Ago</span>
+										</p>
+									
+									</span >
+						</div>
+							
+						</div>
+
+				</div>
+
+			</section>  
+        </main>
+
+
+
+
+
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"
+		></script>
+		<script src="./assets/scripts/script.js"></script>
+	</body>
+</html>
