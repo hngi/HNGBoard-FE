@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  background: #E5E5E5;
+}
+
+#sidebar {
+  background: #10507A;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+}
+
+#topbar {
+  background: #10507A;
+  position: fixed;
+  height: 10%;
+  left: 22%;
+  width: 78%;
+  z-index: 999;
+}
+
+#main-page {
+  position: relative;
+  top: 12%;
+  left: 22%;
+  width: 78%;
+  font-family: 'Roboto', sans-serif;
+}
+
+#main-page .admin-task-creation-page .page-heading h1{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 20px 0;
+  
+  color: #000000;
+}
+
+#main-page .admin-task-creation-page .intern-stats-conatainer {
+   background-color: #ffffff;
+   color: #000000;
+   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+   border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#main-page .admin-task-creation-page .intern-stats-conatainer h2{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  
+  color: #000000;
+}
+
+#main-page .admin-task-creation-page .intern-stats-conatainer h3{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: right;
+  
+  color: #000000;
+}
+
+#main-page .page-heading-two h1{
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #04172A;
+}
+
+#main-page .page-heading-two button {
+  background-color: #FF9501;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  
+  color: #FFFFFF;
+}
+
+.intern-stats-conatainer-two {
+  background: #FFFFFF;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.intern-stats-conatainer-two h2{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #202020;
+  margin-bottom: 10px;
+  
+}
+
+.intern-stats-conatainer-two .mini-text{
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #04172A;
+  max-width: 400px;
+}
+
+.intern-stats-conatainer-two .progress {
+  height: 10px;
+  margin-bottom: 20px;
+}
+
+.intern-stats-conatainer-two .progress-bar {
+  background-color: #FF9501 !important;
+  height: 10px;
+}
+
+.intern-stats-conatainer-two .mini-attributes {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  
+  color: #04172A;
+}
+
+.intern-stats-conatainer-two .mini-attributes-img img{
+    width: 100%;
+}
+
+.intern-stats-conatainer-two .mini-attributes-img h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 20px;
+  
+  color: #04172A;
+}
+
+
+/* MEDIA QUERY */
+@media(max-width: 1200px) {
+  #sidebar {
+      display: none;
+  }
+
+  #topbar {
+      left: 0;
+      width: 100%;
+  }
+
+  #main-page {
+      left: 0;
+      width: 100%;
+  }
+
+  #main-page .admin-task-creation-page .intern-stats-conatainer h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    
+    color: #000000;
+  }
+  
+  #main-page .admin-task-creation-page .intern-stats-conatainer h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: right;
+    
+    color: #000000;
+  }
+}
