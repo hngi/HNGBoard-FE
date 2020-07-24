@@ -278,3 +278,9 @@ button.addnew-btn {
 .task-item:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+
+@media (min-width: 576px) {
+  .task-item {
+    margin-top: 16px;
+  }
+}
