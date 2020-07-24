@@ -50,7 +50,7 @@ body {
    color: #000000;
    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
    border-radius: 15px;
-  padding: 30px;
+  padding: 15px;
   margin-bottom: 20px;
 }
 
@@ -103,7 +103,8 @@ body {
   background: #FFFFFF;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  padding: 20px;
+  padding: 15px;
+  margin-bottom: 10px;
 }
 
 .intern-stats-conatainer-two h2{
@@ -113,6 +114,7 @@ body {
   line-height: 26px;
   /* identical to box height */
   color: #202020;
+  margin-bottom: 10px;
   
 }
 
@@ -123,6 +125,7 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #04172A;
+  max-width: 400px;
 }
 
 .intern-stats-conatainer-two .progress {
@@ -162,7 +165,7 @@ body {
 
 
 /* MEDIA QUERY */
-@media(max-width: 768px) {
+@media(max-width: 1200px) {
   #sidebar {
       display: none;
   }
