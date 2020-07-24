@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
+
+#sidebar {
+    background: #10507A;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+}
+
+#topbar {
+    background: #10507A;
+    position: fixed;
+    height: 10%;
+    left: 22%;
+    width: 78%;
+    z-index: 999;
+}
+
+#main-page {
+    background: #000;
+    position: relative;
+    top: 12%;
+    left: 22%;
+    width: 78%;
+}
+
+
+
+/* MEDIA QUERY */
+@media(max-width: 768px) {
+    #sidebar {
+        display: none;
+    }
+
+    #topbar {
+        left: 0;
+        width: 100%;
+    }
+
+    #main-page {
+        left: 0;
+        width: 100%;
+    }
+}
