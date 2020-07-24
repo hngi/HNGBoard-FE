@@ -154,8 +154,10 @@ a:hover {
     }
 }
 
-
-/* MEDIA QUERY */
+/* userTaskBtn */
+.userTaskBtn {
+    border-radius: 20px;
+}
 
 /* MEDIA QUERY */
 @media(max-width: 992px) {
