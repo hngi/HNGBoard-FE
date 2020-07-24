@@ -1,0 +1,19 @@
+/*user task section*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    font-family: DM Sans;
+    background-color: #E5E5E5;
+    padding: 30px;
+}
+
+a:hover {
+    text-decoration: none;
+}
