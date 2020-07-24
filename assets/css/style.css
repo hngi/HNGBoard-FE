@@ -109,7 +109,11 @@ a:hover {
 }
 
 #main-page {
+<<<<<<< HEAD
     /* background: #000; */
+=======
+    background: #E5E5E5;
+>>>>>>> b3a106030af8aee6242f26e6fbce62e07c019f28
     position: relative;
     top: 13%;
     left: 22%;
