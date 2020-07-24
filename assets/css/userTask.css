@@ -4,11 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    padding: 0 !important;
-    margin: 0;
-}
-
 body {
     overflow-x: hidden;
     width: 100%;
@@ -123,6 +118,12 @@ a:hover {
     left: 22%;
     width: 78%;
 }
+#userTask{
+    position: relative;
+    top: 13%;
+    left: 22%;
+    width: 78%;
+}
 
 
 /* MEDIA QUERY */
@@ -204,6 +205,11 @@ a:hover {
         position: fixed !important;
         top: 10%;
         /* transition: .5s; */
+    }
+    /* User task Action */
+    #userTask{
+        left: 0;
+        width: 100%;
     }
 
 }

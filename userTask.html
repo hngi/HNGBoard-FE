@@ -6,6 +6,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="img/png" href="assets/images/mainpage images/hng-icon.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
@@ -14,7 +15,7 @@
   <title>HNG-BOARD | user-task</title>
 </head>
 
-<body>
+<body class="bg-light">
   <section id="sidebar">
     <div class="sidebar-profile">
       <img src="./assets/images/mainpage images/image 5.png" alt="" class="sidebar-profile-img">
@@ -63,88 +64,90 @@
   </header>
 
   <!-- user task section -->
+  <main id="userTask">
+    <section>
+      <div class="container mx-auto mx-lg-0">
+        <div class="row mb-3 mb-lg-4">
 
-  <main id="userTask" class="ml-0 ml-md-5 pl-0 pl-md-5 bg-light">
-    <section class="mt-0 mt-md-5 pt-3 pt-md-5 pl-0 pl-md-5">
-      <div class="container mt-5 pt-3 pl-0 pl-md-5">
-        <div class="row mb-3 mb-md-4 ml-0 ml-md-5">
-          <div class="col-sm-12 col-md-5 col-lg-6 mb-4 mt-5 mt-md-0">
-            <div class="card">
-              <div class="card-body p-5">
-                <h3 class="card-title">Submit Task</h3>
-                <form>
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">
-                      <h6>submit your Task Link Here</h6>
-                    </label>
-                    <input type="text" class="form-control col-8 bg-light">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlTextarea1">
-                      <h6>Your Comment</h6>
-                    </label>
-                    <textarea class="form-control col-8 bg-light" rows="4"></textarea>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-5 col-lg-6 mb-4">
-            <div class="card">
-              <div class="card-body p-5">
-                <h3 class="card-title pb-3"> Stage 8 Entry Task: HNG Website Redesign</h3>
-                <ol>
-                  <li>Sign In User</li>
-                  <li>Sign In Admin</li>
-                  <li>Sign Up Admin</li>
-                  <li>Sign Up User</li>
-                  <li>Dashboard User</li>
-                </ol>
-                <p>Deadline: 31/07/2020 12:00 AM</p>
-                <div class="row">
-                  <div>
-                    <button class="btn btn-sm rounded bg-warning mr-3 px-3 py-0 text-white">
-                      DESIGN
-                    </button>
-                  </div>
-                  <div>
-                    <button class="btn btn-sm rounded bg-dark px-3 py-0 text-white">
-                      PENDING
-                    </button>
-                  </div>
+          <div class="card mb-4 col-11 col-lg-5 mx-auto d-block d-lg-none">
+            <div class="card-body">
+              <h3 class="card-title pb-3">Stage 8 Entry Task: HNG Website Redesign</h3>
+              <ol class="ml-3">
+                <li>Sign In User</li>
+                <li>Sign In Admin</li>
+                <li>Sign Up Admin</li>
+                <li>Sign Up User</li>
+                <li>Dashboard User</li>
+              </ol>
+              <p>Deadline: 31/07/2020 12:00 AM</p>
+              <div class="row pl-3">
+                <div>
+                  <button class="btn btn-sm rounded bg-warning mr-3 px-3 py-0 text-white">
+                    DESIGN
+                  </button>
+                </div>
+                <div>
+                  <button class="btn btn-sm rounded bg-dark px-3 py-0 text-white">
+                    PENDING
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-12">
+
+          <div class="card mb-4 col-11 col-lg-5 mx-auto mr-lg-5 mb-3 mb-md-0">
+            <div class="card-body">
+              <h3 class="card-title">Submit Task</h3>
+              <form>
+                <div class="form-group">
+                  <label>
+                    <h6>submit your Task Link Here</h6>
+                  </label>
+                  <input type="text" class="form-control col-12 col-md-8 bg-light">
+                </div>
+                <div class="form-group">
+                  <label>
+                    <h6>Your Comment</h6>
+                  </label>
+                  <textarea class="form-control col-12 col-md-8 bg-light" rows="4"></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="card col-11 col-lg-5 mx-auto d-none d-lg-block">
+            <div class="card-body">
+              <h3 class="card-title pb-3">Stage 8 Entry Task: HNG Website Redesign</h3>
+              <ol class="ml-3">
+                <li class="pb-1">Sign In User</li>
+                <li class="pb-1">Sign In Admin</li>
+                <li class="pb-1">Sign Up Admin</li>
+                <li class="pb-1">Sign Up User</li>
+                <li class="pb-1">Dashboard User</li>
+              </ol>
+              <p>Deadline: 31/07/2020 12:00 AM</p>
+              <div class="row pl-3">
+                <div>
+                  <button class="btn btn-sm rounded bg-warning mr-3 px-3 py-0 text-white">
+                    DESIGN
+                  </button>
+                </div>
+                <div>
+                  <button class="btn btn-sm rounded bg-dark px-3 py-0 text-white">
+                    PENDING
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 mt-2 mt-md-3 ml-0 ml-md-4">
             <button class="btn rounded bg-warning px-3 text-white">
               Submit
             </button>
           </div>
         </div>
-        <div class="row ml-0 ml-md-5">
-          <div class="col-sm-12 col-md-5 col-lg-6 mb-4">
-            <div class="card">
-              <div class="card-body p-0">
-                <h3 class="card-title pb-3">All Tasks</h3>
-                <p>Below are all your tasks</p>
-                <hr class="w-100">
-                <div class="row">
-                  <div>
-                    <button class="btn btn-sm rounded bg-warning mr-3 px-3 py-0 text-white">
-                      DESIGN
-                    </button>
-                  </div>
-                  <div>
-                    <button class="btn btn-sm rounded bg-dark px-3 py-0 text-white">
-                      PENDING
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      </div>
+     
       </div>
     </section>
   </main>
