@@ -109,11 +109,11 @@ a:hover {
 }
 
 #main-page {
-    background: #000;
     position: relative;
     top: 13%;
     left: 22%;
     width: 78%;
+    overflow: hidden;
 }
 
 
