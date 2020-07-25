@@ -240,10 +240,18 @@
 
 @media(max-width:375px) {
     .signin-body span {
-        bottom: 13rem;
+        bottom: 11.5rem;
         right: 1.5rem;
     }
     .signin-para p {
         padding: 0 2rem;
     }
+}
+
+@media(max-width:293px) {
+    .signin-body span {
+        bottom: 13rem;
+        right: 1.5rem;
+    }
+
 }
