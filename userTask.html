@@ -147,13 +147,13 @@
           </div>
           <!-- big screen ends -->
           <div class="col-5 col-md-6 mt-0 mt-md-3 ml-3 ml-md-2 ml-lg-4 pl-0 pl-md-4">
-            <button class="btn rounded bg-warning px-3 text-white">
+            <button class="btn rounded btn-warning px-3 text-white" id="userTaskBtn">
               Submit
             </button>
           </div>
         </div>
         <div class="row mx-1 mx-md">
-          <div class="card col-12 col-md-4 col-lg-7 ml-0 mx-md-2 mx-lg-4 pb-0 mb-2 mb-md-3">
+          <div class="card col-12 col-md-8 col-lg-7 ml-0 mx-md-2 mx-lg-4 pb-0 mb-2 mb-md-3">
             <div class="card-body pb-0">
               <div>
                 <h3 class="card-title">All Tasks</h3>
@@ -222,12 +222,13 @@
             </div>
           </div>
           <!-- <div class="col-12 text-center"> -->
-            <div class="card alert alert-white alert-dismissible fade show w-25 h-25 text-center" role="alert">
-              <strong>Task Submitted Sucessfull</strong>
+            <div class="collapse col-12 col-md-4 px-3 alert  bg-white py-3 py-md-4 collapse alert-white alert-dismissible w-25 h-25 text-center" role="alert" id="userAlert">
+              <a href="#" id="alertClose" class="close">&times;</a>
+              <strong>Task Submitted Sucessfull</strong><br>
               <i class="fa fa-check-square fa-2x text-success"></i>
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true" class="text-success">&times;</span>
-              </button>
+              <!-- <a href="#" class="close" aria-label="Close" id="alertClose">
+                <span aria-hidden="true" class=" text-success">&times;</span>
+              </a> -->
             </div>
           <!-- </div> -->
         </div>
@@ -241,17 +242,17 @@
 
 
 
-
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+  crossorigin="anonymous"></script>
   <script src="./assets/scripts/script.js"></script>
+  <script src="./assets/scripts/userTask.js"></script>
 </body>
 
 </html>
