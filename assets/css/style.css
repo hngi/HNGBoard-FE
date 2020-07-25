@@ -109,6 +109,10 @@ a:hover {
 }
 
 #main-page {
+<<<<<<< HEAD
+=======
+    background: #E5E5E5;
+>>>>>>> f4c29cdb3f8c9dbc0233a21006948864210ed7bc
     position: relative;
     top: 13%;
     left: 22%;
