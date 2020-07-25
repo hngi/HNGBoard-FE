@@ -1,3 +1,4 @@
+/* default browser resets */
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +7,7 @@
 
 body {
     overflow-x: hidden;
-    width: 100%;
-    position: relative;
+    /* position: relative; */
 }
 
 a:hover {
@@ -25,16 +25,40 @@ a:hover {
     -o-animation:      NAME-YOUR-ANIMATION 5s infinite; /* Opera 12+ */
     animation:         NAME-YOUR-ANIMATION 5s infinite; /* IE 10+, Fx 29+ */
 }
+/* style variables */
+:root{
+    --mainblue:#10507A;
+    --mainWhite:#fff;
+    --mainBoxShadow:box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    --mainBorderRadius:15px;
+    --mainGrey: #E5E5E5;
+}
+/* end of variables */
+/* ================== */
+/* styles for main container*/
+.main-container{
+    background: var(--mainGrey);
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-template-areas: "sidebar header header"
+    "sidebar main main"
+    "sidebar footer footer";
+}
+/* end of styles for main-container */
+/* ================================= */
+/* styles for sidebar */
 
 #sidebar {
     background: #10507A;
-    /* background: #000; */
-    height: 100%;
-    width: 20%;
+    height: 100vh;
     position: fixed;
     color: white;
     padding-top: 5em;
     overflow-y: scroll;
+    grid-area: sidebar;
 }
 
 .sidebar-profile {
@@ -81,14 +105,17 @@ a:hover {
     margin-top: 6em;
     margin-bottom: 4.5em;
 }
-
+/* end of styles for sidebar section */
+/* =================================== */
+/* styles for topbar */
 #topbar {
     background: #10507A;
-    position: fixed;
+    position: sticky;
+    top: 0;
     height: 10%;
     left: 22%;
     width: 78%;
-    z-index: 999;
+    z-index: 1;
     color: white;
     border: transparent;
     border-radius: 15px 0px 0px 15px;
@@ -107,102 +134,18 @@ a:hover {
 .nav-toggle-img {
     display: none;
 }
-
-#main-page {
-    background: #000;
+/* end of styles for topbar section */
+/* ============================= */
+/* styles for post-page/section  */
+#post-page-container {
+    background:var(--mainWhite);
     position: relative;
-    top: 13%;
+    /* top: 13%; */
     left: 22%;
     width: 78%;
+    padding:1rem;
+    border-radius: var(--mainBorderRadius);
 }
 
-
-/* MEDIA QUERY */
-@media(max-width: 1200px) {
-    .sidebar-nav-link-text {
-        font-size: 1.2em;
-        margin-left: 1em;
-    }
-
-    .sidebar-nav-link {
-        grid-template-columns: 1fr 4fr;
-        padding: 1em 1em;
-        margin-bottom: 1.5em;
-    }
-
-    .sidebar-profile-name {
-        font-weight: bold;
-        font-size: 1.2em;
-    }
-    
-    .sidebar-profile-id {
-        font-size: .9em;
-    }
-    
-    .sidebar-profile-img {
-        width: 40%;
-        height: auto;
-    }
-}
-
-
-/* MEDIA QUERY */
-
-/* MEDIA QUERY */
-@media(max-width: 992px) {
-    #sidebar {
-        width: 0%;
-    }
-
-    #topbar {
-        left: 0;
-        width: 100%;
-        border-radius: 0;
-    }
-
-    #main-page {
-        left: 0;
-        width: 100%;
-    }
-
-    .topbar-left {
-        display: flex;
-        align-items: center;
-        /* border: 1px solid black; */
-    }
-
-    .topbar-head-text {
-        margin-left: 1em;
-    }
-
-    .nav-toggle-img {
-        display: block;
-        height: auto;
-        width: 11%;
-        /* margin-top: .3em; */
-        cursor: pointer;
-        transition: 0.3s;
-        transition-property: opacity;
-        /* width: 13%; */
-    }
-
-    .nav-toggle-img:hover {
-        opacity: 0.5;
-    }
-
-    .sidebar-active {
-        width: 250px !important;
-        z-index: 999999 !important;
-        position: fixed !important;
-        top: 10%;
-        /* transition: .5s; */
-    }
-
-}
-
-/* MEDIA QUERY */
-@media(max-width: 768px) {
-    .topbar-email {
-        display: none;
-    }
-}
+/* end of styles for post page/section */
+/* ============================= */
