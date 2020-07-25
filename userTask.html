@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="img/png" href="assets/images/mainpage images/hng-icon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/userTask.css" />
+  <title>HNG-BOARD | user-task</title>
+</head>
+
+<body class="bg-light">
+  <section id="sidebar">
+    <div class="sidebar-profile">
+      <img src="./assets/images/mainpage images/image 5.png" alt="" class="sidebar-profile-img">
+      <h5 class="sidebar-profile-name mt-2">Franklyn B.Epidi</h5>
+      <p class="sidebar-profile-id mt-1">INTERNSHIP ID: HNG-05406</p>
+    </div>
+
+    <div class="sidebar-links">
+      <a href="#" class="sidebar-nav-link">
+        <img src="./assets/images/mainpage images/dashboard-icon.png" alt="" class="sidebar-nav-link-img">
+        <p class="sidebar-nav-link-text align-self-center">Dashboard</p>
+      </a>
+
+      <a href="#" class="sidebar-nav-link">
+        <img src="./assets/images/mainpage images/tasks-icon.png" alt="" class="sidebar-nav-link-img">
+        <p class="sidebar-nav-link-text">Tasks</p>
+      </a>
+
+      <a href="#" class="sidebar-nav-link">
+        <img src="./assets/images/mainpage images/posts-icon.png" alt="" class="sidebar-nav-link-img">
+        <p class="sidebar-nav-link-text">Posts</p>
+      </a>
+
+      <a href="#" class="sidebar-nav-link">
+        <img src="./assets/images/mainpage images/calendar-icon.png" alt="" class="sidebar-nav-link-img">
+        <p class="sidebar-nav-link-text">Calendar</p>
+      </a>
+
+      <a href="#" class="sidebar-nav-link sidebar-logout-link">
+        <img src="./assets/images/mainpage images/logout-icon.png" alt="" class="sidebar-nav-link-img">
+        <p class="sidebar-nav-link-text">Log Out</p>
+      </a>
+    </div>
+  </section>
+
+  <header id="topbar" class="d-flex align-items-center justify-content-between">
+    <div class="topbar-left">
+      <img src="./assets/images/mainpage images/hamburger.png" alt="" class="nav-toggle-img" id="nav-toggle">
+      <h2 class="topbar-head-text">Dashboard</h2>
+    </div>
+
+    <div class="topbar-right d-flex align-items-center">
+      <p class="topbar-email my-auto mr-5">Franklunb.e@gmail.com</p>
+      <img src="./assets/images/mainpage images/bell.png" alt="" class="topbar-icon">
+    </div>
+  </header>
+
+  <!-- user task section -->
+  <main id="userTask">
+    <section class="mt-0">
+      <div class="container mx-auto mx-lg-0">
+        <div class="row mb-3 mb-lg-4">
+          <!-- <div class="col-12 p-0 p-md-4"></div> -->
+          <div class="col-12 mt-0 mt-lg-5 p-0 p-md-3 p-lg-5"></div>
+          <div class="mt-5 pt-3 pt-md-1 pt-lg-5">
+            <!-- small screen -->
+            <div class="card mb-4 col-11 col-md-12 col-lg-5 ml-0 ml-md-4 mx-auto d-block d-lg-none mt-5">
+              <div class="card-body">
+                <h3 class="card-title pb-3">Stage 8 Entry Task: HNG Website Redesign</h3>
+                <ol class="ml-3">
+                  <li>Sign In User</li>
+                  <li>Sign In Admin</li>
+                  <li>Sign Up Admin</li>
+                  <li>Sign Up User</li>
+                  <li>Dashboard User</li>
+                </ol>
+                <p>Deadline: 31/07/2020 12:00 AM</p>
+                <div class="row pl-3">
+                  <div>
+                    <button class="btn btn-sm userTaskBtn bg-warning mr-3 px-3 py-0 text-white">
+                      DESIGN
+                    </button>
+                  </div>
+                  <div>
+                    <button class="btn btn-sm userTaskBtn bg-dark px-3 py-0 text-white">
+                      PENDING
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- small screen ends -->
+          </div>
+          <div class="card mb-3 col-11 col-md-9 col-md-11 col-lg-5 mx-auto mr-lg-5 mb-3 mb-md-0">
+            <div class="card-body">
+              <h3 class="card-title">Submit Task</h3>
+              <form>
+                <div class="form-group">
+                  <label>
+                    <h6>submit your Task Link Here</h6>
+                  </label>
+                  <input type="text" class="form-control col-12 col-md-9 bg-light">
+                </div>
+                <div class="form-group">
+                  <label>
+                    <h6>Your Comment</h6>
+                  </label>
+                  <textarea class="form-control col-12 col-md-9 bg-light" rows="4"></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- big screen -->
+          <div class="card col-11 col-lg-5 mx-auto d-none d-lg-block">
+            <div class="card-body">
+              <h3 class="card-title pb-3">Stage 8 Entry Task: HNG Website Redesign</h3>
+              <ol class="ml-3">
+                <li class="pb-1">Sign In User</li>
+                <li class="pb-1">Sign In Admin</li>
+                <li class="pb-1">Sign Up Admin</li>
+                <li class="pb-1">Sign Up User</li>
+                <li class="pb-1">Dashboard User</li>
+              </ol>
+              <p>Deadline: 31/07/2020 12:00 AM</p>
+              <div class="row pl-3">
+                <div>
+                  <button class="btn btn-sm userTaskBtn bg-warning mr-3 px-3 py-0 text-white">
+                    DESIGN
+                  </button>
+                </div>
+                <div>
+                  <button class="btn btn-sm userTaskBtn bg-dark px-3 py-0 text-white">
+                    PENDING
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- big screen ends -->
+          <div class="col-5 col-md-6 mt-0 mt-md-3 ml-3 ml-md-2 ml-lg-4 pl-0 pl-md-4">
+            <button class="btn rounded btn-warning px-3 text-white" id="userTaskBtn">
+              Submit
+            </button>
+          </div>
+        </div>
+        <div class="row mx-1 mx-md">
+          <div class="card col-12 col-md-8 col-lg-7 ml-0 mx-md-2 mx-lg-4 pb-0 mb-2 mb-md-3">
+            <div class="card-body pb-0">
+              <div>
+                <h3 class="card-title">All Tasks</h3>
+                <p>Below are all your tasks</p>
+              </div>
+              <hr>
+              <div>
+                <p class="font-weight-bold mb-0">Stage 2 Entry Task: Hotel Website Design</p>
+                <small>Deadline: 31/07/2020 12:00 AM</small>
+                <div class="row pl-3 pt-1 pb-1">
+                  <div>
+                    <button class="btn btn-sm userTaskBtn bg-warning mr-3 px-3 py-0 text-white">
+                      DESIGN
+                    </button>
+                  </div>
+                  <div>
+                    <button class="btn btn-sm userTaskBtn bg-dark px-3 py-0 text-white">
+                      PENDING
+                    </button>
+                  </div>
+                </div>
+                <hr>
+                <div>
+                  <p class="font-weight-bold mb-0">Task 0.5: Git</p>
+                  <small>Deadline: 07/06/2020 12:00</small>
+                  <div class="row pl-3 pt-2 pb-2">
+                    <div>
+                      <button class="btn btn-sm userTaskBtn bg-warning mr-3 px-3 py-0 text-white">
+                        DESIGN
+                      </button>
+                    </div>
+                    <div>
+                      <button class="btn btn-sm userTaskBtn bg-dark px-3 py-0 text-white">
+                        PENDING
+                      </button>
+                    </div>
+                  </div>
+                  <hr>
+                  <div>
+                    <p class="font-weight-bold mb-0">Task 0.5: Lucid</p>
+                    <small>Deadline: 07/06/2020 12:00</small>
+                    <div class="row pl-3 pt-2 pb-2">
+                      <div>
+                        <button class="btn btn-sm userTaskBtn bg-warning mr-3 px-3 py-0 text-white">
+                          DESIGN
+                        </button>
+                      </div>
+                      <div>
+                        <button class="btn btn-sm userTaskBtn bg-dark px-3 py-0 text-white">
+                          PENDING
+                        </button>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="row pb-0">
+                      <div class="col-6 col-md-8 pt-0 pt-md-2 mr-auto">
+                        <p><i class="fa fa-refresh"></i> Your latest task expired 2 months ago</p>
+                      </div>
+                      <div class="text-warning mb-0 mb-md-3">
+                        <a class="btn shadow">Load More <i class="fa fa-caret-right text-warning"></i> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-12 text-center"> -->
+            <div class="collapse col-12 col-md-4 px-3 alert  bg-white py-3 py-md-4 collapse alert-white alert-dismissible w-25 h-25 text-center" role="alert" id="userAlert">
+              <a href="#" id="alertClose" class="close">&times;</a>
+              <strong>Task Submitted Sucessfull</strong><br>
+              <i class="fa fa-check-square fa-2x text-success"></i>
+              <!-- <a href="#" class="close" aria-label="Close" id="alertClose">
+                <span aria-hidden="true" class=" text-success">&times;</span>
+              </a> -->
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </section>
+    <footer class="text-center mx-auto bg-light py-2 py-md-3">
+      <h6>© 2020 | HNG Board</h6>
+    </footer>
+  </main>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+  crossorigin="anonymous"></script>
+  <script src="./assets/scripts/script.js"></script>
+  <script src="./assets/scripts/userTask.js"></script>
+</body>
+
+</html>
