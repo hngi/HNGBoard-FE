@@ -212,6 +212,9 @@ a:hover {
   .topbar-email {
       display: none;
   }
+  #topbar {
+    padding-left: 0.5em;
+  }
 }
 
 
