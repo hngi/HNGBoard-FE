@@ -11,7 +11,8 @@
 			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 			crossorigin="anonymous"
         />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" href="./assets/css/style.css" />
 		<title>Basic Template</title>
 	</head>
@@ -19,8 +20,8 @@
         <section id="sidebar">
 			<div class="sidebar-profile">
 				<img src="./assets/images/mainpage images/image 5.png" alt="" class="sidebar-profile-img">
-				<h5 class="sidebar-profile-name mt-2">Franklyn B.Epidi</h5>
-				<p class="sidebar-profile-id mt-1">INTERNSHIP ID: HNG-05406</p>
+				<h5 class="sidebar-profile-name mt-2" data-aos="fade-left" data-aos-duration="1000">Franklyn B.Epidi</h5>
+				<p class="sidebar-profile-id mt-1" data-aos="fade-right" data-aos-duration="1000">INTERNSHIP ID: HNG-05406</p>
 			</div>
 
 			<div class="sidebar-links">
@@ -54,7 +55,7 @@
         <header id="topbar" class="d-flex align-items-center justify-content-between">
 			<div class="topbar-left">
 				<img src="./assets/images/mainpage images/hamburger.png" alt="" class="nav-toggle-img" id="nav-toggle">
-				<h2 class="topbar-head-text">Dashboard</h2>
+				<h2 class="topbar-head-text align-self-center my-0">Dashboard</h2>
 			</div>
 			
 			<div class="topbar-right d-flex align-items-center">
@@ -75,7 +76,10 @@
 
 
 
-
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 		<script
 			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
