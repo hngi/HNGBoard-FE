@@ -151,10 +151,14 @@
 
 @media(max-width:767px) {
     .signin-para {
-        border-radius: 10px 0px 0px 0px;
+        border-radius: 0px 0px 0px 0px;
         align-items: center;
         padding: 0 1.5rem;
         height: 487px;
+    }
+
+    .hng-sign {
+        margin-bottom: 4rem;
     }
 
     .hngg{
@@ -172,10 +176,14 @@
     }
 
     .signin-body {
+        background: #FFFFFF;
+        border: none;
+        box-sizing: border-box;
         border-radius: 0px 0px 0px 0px;
-        padding-bottom: 9rem;
+        padding: 3rem 2.5rem 9rem 2.5rem;
+        box-shadow: none ;
     }
-
+    
     .signin-body .hng {
         display: none;
     }
@@ -189,7 +197,7 @@
         margin-bottom: 3rem;
         font-size: 16px;
         line-height: 21px;
-        padding: 0 4rem;
+        padding: 0 8rem;
     }
     .signin-para h3{
         font-size: 36px;
@@ -198,31 +206,36 @@
     .signin-form {
         width: 100%;
     }
-    
+    .signin {
+        padding: 0rem;
+    }
+    .btn-box {
+        text-align: center;
+    }
         
 }
 
 @media(max-width:576px) {
+    .signin-para {
+        padding: 0 1rem;
+    }
     .signin-para p {
-        padding: 0 1rem;
-    }
-    .signin-para {
-        padding: 0 1rem;
-    }
-    .signin-para {
-        width: 100%;
-
+        padding: 0 6rem;
     }
 
 }
 
-@media(max-width: 430px) {
+@media(max-width: 435px) {
     .hngg h3 {
         font-size: 28px;
         line-height: 37px;
         color: #fff;
         margin-bottom: 5rem;
     }
+    .signin-para p {
+        padding: 0 4rem;
+    }
+
 }
 
 @media(max-width:375px) {
@@ -231,6 +244,6 @@
         right: 1.5rem;
     }
     .signin-para p {
-        padding: 0;
+        padding: 0 2rem;
     }
 }
