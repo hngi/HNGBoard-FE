@@ -2,6 +2,7 @@
 :root {
   --main-orange: #FF9501;
   --main-grey: #E5E5E5;
+  --main-dark-blue: #04172A;
 }
 
 * {
@@ -267,6 +268,14 @@ button.addnew-btn {
 
 .bookmark {
   color: var(--main-orange);
+}
+
+.taskSection {
+  color: var(--main-dark-blue);
+}
+
+.task-details{
+  margin-top: 50px;
 }
 
 .task-item {
