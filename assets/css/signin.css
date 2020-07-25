@@ -14,6 +14,7 @@
     display: flex;
     align-items: center;
     padding: 0 3rem;
+    box-shadow: 2px 7px 10px #ccc;   
 }
 
 .signin-para h3{
@@ -56,6 +57,7 @@
     box-sizing: border-box;
     border-radius: 0px 10px 10px 0px;
     padding: 3rem 2rem 3rem 6rem;
+    box-shadow: 2px 3px 10px #ccc;
 }
 
 .signin-body .hng {
