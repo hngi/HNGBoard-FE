@@ -10,7 +10,7 @@ body {
     position: relative;
 }
 
-a:hover {
+a:hover, a {
     text-decoration: none;
 }
 
