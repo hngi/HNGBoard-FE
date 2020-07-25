@@ -1,0 +1,301 @@
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="img/png" href="assets/images/mainpage images/hng-icon.png">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/admin-task-creation.css" />
+		<title>Basic Template</title>
+	</head>
+	<body>
+        <section id="sidebar">
+			<div class="sidebar-profile">
+				<img src="./assets/images/admintaskcreation/seyi-big-avatar.png" alt="" class="sidebar-profile-img">
+				<h5 class="sidebar-profile-name mt-2">Seyi Onifade</h5>
+				<p class="sidebar-profile-id mt-1">Administrator</p>
+			</div>
+
+			<div class="sidebar-links">
+				<a href="#" class="sidebar-nav-link">
+					<img src="./assets/images/mainpage images/dashboard-icon.png" alt="" class="sidebar-nav-link-img">
+					<p class="sidebar-nav-link-text align-self-center">Dashboard</p>
+				</a>
+
+				<a href="#" class="sidebar-nav-link">
+					<img src="./assets/images/mainpage images/tasks-icon.png" alt="" class="sidebar-nav-link-img">
+					<p class="sidebar-nav-link-text">Create Tasks</p>
+				</a>
+
+				<a href="#" class="sidebar-nav-link">
+					<img src="./assets/images/mainpage images/posts-icon.png" alt="" class="sidebar-nav-link-img">
+					<p class="sidebar-nav-link-text">Posts</p>
+				</a>
+
+				<a href="#" class="sidebar-nav-link">
+					<img src="./assets/images/mainpage images/calendar-icon.png" alt="" class="sidebar-nav-link-img">
+					<p class="sidebar-nav-link-text">Calendar</p>
+				</a>
+
+				<a href="#" class="sidebar-nav-link sidebar-logout-link">
+					<img src="./assets/images/mainpage images/logout-icon.png" alt="" class="sidebar-nav-link-img">
+					<p class="sidebar-nav-link-text">Log Out</p>
+				</a>
+			</div>
+        </section>
+
+        <header id="topbar" class="d-flex align-items-center justify-content-between ">
+			<div class="topbar-left">
+				<img src="./assets/images/mainpage images/hamburger.png" alt="" class="nav-toggle-img" id="nav-toggle">
+				<h3 class="topbar-head-text ">Dashboard</h3>
+			</div>
+			
+			<div class="topbar-right d-flex align-items-center">
+				<p class="topbar-email my-auto mr-5">SeyiOnifade@gmail.com</p>
+        <img src="./assets/images/mainpage images/bell.png" alt="" class="topbar-icon d-none d-lg-block">
+        <div class="d-lg-none d-xs-block d-sm-block d-md-block ">
+          <img src="/assets/images/admintaskcreation/seyi-big-avata-sm.png" alt="">
+            <i class="fas fa-angle-down 3x text-light"></i>
+        </div>
+			</div>	
+        </header>
+
+        <main id="admin-task-creation">
+            <section>
+                <div class="container">
+                  <div class="row p-3">
+                    <p class="h5">Intern Statistics</p>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                      <div class="metric mb-md-5 bg-white rounded">
+                        <span class="icon"><i>
+                          <img src="/assets/images/admintaskcreation/total.png" alt="">
+                        </i></span>
+                        <p>
+                          <span class="title">Total Interns</span>
+                          <span class="number">2,534</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                      <div class="metric mb-md-5 bg-white rounded">
+                        <span class="icon"><i>
+                          <img src="/assets/images/admintaskcreation/deactivated.png" alt="" class="pb-3">
+                        </i></span>
+                        <p>
+                          <span class="title">Deactivated</span>
+                          <span class="number">1,134</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                      <div class="metric mb-md-5 bg-white rounded">
+                        <span class="icon"><i>
+                          <img src="/assets/images/admintaskcreation/pending.png" alt="">
+                        </i></span>
+                        <p>
+                          <span class="title">Pending</span>
+                          <span class="number">434</span>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                      <div class="metric mb-md-5 bg-white rounded">
+                        <span class="icon"><i>
+                          <img src="/assets/images/admintaskcreation/active.png" alt="">
+                        </i></span>
+                        <p>
+                          <span class="title">Active Interns</span>
+                          <span class="number">1,000</span>
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6">
+                      <div class="metric mb-md-5 bg-white rounded">
+                        <span class="icon"><i>
+                          <img src="/assets/images/admintaskcreation/design.png" alt="">
+                        </i></span>
+                        <p>
+                          <span class="title">Design</span>
+                          <span class="number">400</span>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                      <div class="metric mb-md-5 bg-white rounded">
+                        <span class="icon"><i>
+                          <img src="/assets/images/admintaskcreation/frontend.png" alt="">
+                        </i></span>
+                        <p>
+                          <span class="title">Frontend</span>
+                          <span class="number">160</span>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                      <div class="metric  mb-md-5 bg-white rounded">
+                        <span class="icon"><i>
+                          <img src="/assets/images/admintaskcreation/Ellipse.png" alt="">
+                        </i></span>
+                        <p>
+                          <span class="title">Backend</span>
+                          <span class="number">150</span>
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6">
+                      <div class="metric  mb-md-5 bg-white rounded">
+                        <span class="icon"><i>
+                          <img src="/assets/images/admintaskcreation/mobile.png" alt="">
+                        </i></span>
+                        <p>
+                          <span class="title">Mobile</span>
+                          <span class="number">150</span>
+                        </p>
+                      </div>
+                    </div>
+
+
+                   </div>
+                </div>
+
+
+
+                <!-- Task List -->
+                <div class="container mb-4 taskSection">
+                  <div class="row task-details">
+                    <div class="container mt-4">
+                      <div class="clearfix">
+                        <p class="h5 float-left">Task</p>
+                        <div class="float-right ">
+                          <button class="btn btn addnew-btn text-light ">
+                            Add New <img src="/assets/images/admintaskcreation/add.png" alt="">
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  <div class="row mt-2">
+                    <div class="col-md-6 col-sm-12 ">
+                      <div class="container task-item bg-white p-3 mt-sm-3">
+                        <div class="task bg-white">
+                          <div class="clearfix">
+                            <p class="float-left">Task</p>
+                            <p class="float-right"><i class="fas fa-angle-right"></i></p>
+                          </div>
+                        </div>
+  
+                        <div class="progress" style="height: 5px;">
+                          <div class="progress-bar" role="progressbar" style="width: 25%; background-color:#FF9501;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+  
+                        <div class="clearfix">
+                          <p class="float-left px-3 mt-3 bold">Add Fluid Layout Featuring A Vertical Menu With Icons Only</p>
+                          <span class="float-right px-3 mt-3"><i class="fas fa-ellipsis-h"></i></span>
+                        </div>
+                        <div class="img-wrapper">
+                          <img src="/assets/images/admintaskcreation/dashed-lines.png" alt="">
+                        </div>
+                        <div class="clearfix">
+                          <div class="float-left">
+                            <p>Today <span><i class="fas fa-bookmark bookmark p-2"></i></span>2</p>
+                          </div>
+                          <div class="float-right">
+                            <img src="/assets/images/admintaskcreation/add-black.png" alt="">
+                          </div>
+                        </div>
+  
+                        <div class="image-wrapper my-3 mb-4">
+                          <img src="/assets/images/admintaskcreation/task-img.jpg" alt="" width="100%" height="171">
+  
+                          <p class="pt-3">Add layout Options</p>
+                        </div>
+  
+                      </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                      <div class="container task-item bg-white p-3 mt-sm-3">
+                        <div class="task bg-white">
+                          <div class="clearfix">
+                            <p class="float-left">Task</p>
+                            <p class="float-right"><i class="fas fa-angle-right"></i></p>
+                          </div>
+                        </div>
+  
+                        <div class="progress" style="height: 5px;">
+                          <div class="progress-bar" role="progressbar" style="width: 65%; background-color:#FF9501;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+  
+                        <div class="clearfix">
+                          <p class="float-left px-3 mt-3 ">Add Fluid Layout Featuring A Vertical Menu With Icons Only</p>
+                          <span class="float-right px-3 mt-3"><i class="fas fa-ellipsis-h"></i></span>
+                        </div>
+                        <div class="img-wrapper">
+                          <img src="/assets/images/admintaskcreation/dashed-lines.png" alt="">
+                        </div>
+                        <div class="clearfix">
+                          <div class="float-left">
+                            <p>Today <span><i class="fas fa-bookmark bookmark p-2"></i></span>5</p>
+                          </div>
+                          <div class="float-right">
+                            <img src="/assets/images/admintaskcreation/group-pix.png" alt="">
+
+                            <img src="/assets/images/admintaskcreation/add-black.png" alt="">
+                          </div>
+                        </div>
+  
+                        <div class="image-wrapper my-3 mb-4">
+                          <img src="/assets/images/admintaskcreation/task2-img.jpg" alt="" width="100%" height="171">
+  
+                          <p class="pt-3">Add layout Options</p>
+                        </div>
+  
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+            </section>  
+        </main>
+
+
+
+
+
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"
+		></script>
+		<script src="./assets/scripts/script.js"></script>
+	</body>
+</html>
