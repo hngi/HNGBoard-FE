@@ -120,7 +120,7 @@
     right: 11.5rem;
 }
 
-.signin-para .hng1 {
+.hngg {
     display: none;
 }
 
@@ -151,23 +151,26 @@
     .signin-para {
         border-radius: 10px 0px 0px 0px;
         align-items: center;
-        padding: 0 3rem;
+        padding: 0 1.5rem;
         height: 487px;
     }
 
-    .signin-para .hng1 {
+    .hngg{
         display: inline-block;
-        text-align: left;
-        font-style: normal;
-        font-weight: bold;
+    }
+
+    .hngg h3 {
         font-size: 30px;
         line-height: 39px;
-        color: #FFFFFF;
-        margin-bottom: 3rem;
+        color: #fff;
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 5rem;
     }
 
     .signin-body {
-        border-radius: 0;
+        border-radius: 0px 0px 0px 0px;
         padding-bottom: 9rem;
     }
 
@@ -177,32 +180,47 @@
 
     .signin-body span {
         bottom: 11.4rem;
-        right: 6rem;
+        right: 1rem;
     }
 
     .signin-para p {
         margin-bottom: 3rem;
         font-size: 16px;
         line-height: 21px;
+        padding: 0 4rem;
     }
     .signin-para h3{
         font-size: 36px;
         line-height: 47px;
     }
-    
+    .signin-form {
+        width: 100%;
+    }
     
         
 }
 
-@media(max-width:567px) {
-    .signin-form {
-        width: 100%;
+@media(max-width:576px) {
+    .signin-para p {
+        padding: 0 1rem;
     }
-    .signin-body span {
-        bottom: 11.4rem;
-        right: 1.5rem;
+    .signin-para {
+        padding: 0 1rem;
+    }
+    .signin-para {
+        width: 100%;
+
     }
 
+}
+
+@media(max-width: 430px) {
+    .hngg h3 {
+        font-size: 28px;
+        line-height: 37px;
+        color: #fff;
+        margin-bottom: 5rem;
+    }
 }
 
 @media(max-width:375px) {
@@ -210,5 +228,7 @@
         bottom: 13rem;
         right: 1.5rem;
     }
-
+    .signin-para p {
+        padding: 0;
+    }
 }
