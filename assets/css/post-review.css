@@ -1,0 +1,150 @@
+body,
+#main-page {
+	background-color: #e5e5e5;
+	font-family: DM Sans;
+}
+
+#post-review {
+	background-color: #ffffff;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.profile-pic-post-review {
+	width: 57.74px;
+	height: 54.26px;
+}
+
+.posts-title {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 42px;
+}
+
+.add-post {
+	background: #ffffff;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.07);
+	border-radius: 5px;
+}
+
+.add-post a {
+	font-weight: 500;
+	font-size: 24px;
+	/* line-height: 31px; */
+	color: #ff9501;
+}
+
+.read-more {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 31px;
+	color: #ff9501;
+}
+
+.blog-text {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.blog-poster-date {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: rgba(4, 23, 42, 0.8);
+}
+
+.blog-post-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+
+	color: #04172a;
+}
+
+.blog-post-card {
+	border-color: 1px solid #000000;
+}
+
+.current-page {
+	background: #10507a;
+	border-radius: 19.5px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.page-number a {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: right;
+	color: #04172a;
+}
+
+.page-number a.active,
+.page-number a:hover {
+	color: #04abfb;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+	.blog-post-heading {
+		margin-left: 1rem;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+	.profile-pic-post-review {
+		width: 40px;
+		height: 40px;
+		margin-right: 1rem;
+	}
+
+	.blog-post-title {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.blog-poster-date {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.blog-post-heading {
+		margin-left: 1rem;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.profile-pic-post-review {
+		width: 40px;
+		height: 40px;
+	}
+
+	.blog-post-title {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.blog-poster-date {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.blog-post-heading {
+		margin-left: 1rem;
+	}
+
+	/* #post-review {
+		margin: 0 2rem;
+	} */
+}
