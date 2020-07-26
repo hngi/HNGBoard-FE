@@ -95,3 +95,56 @@ body,
 .page-number a:hover {
 	color: #04abfb;
 }
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+	.blog-post-heading {
+		margin-left: 1rem;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+	.profile-pic-post-review {
+		width: 40px;
+		height: 40px;
+		margin-right: 1rem;
+	}
+
+	.blog-post-title {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.blog-poster-date {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.blog-post-heading {
+		margin-left: 1rem;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.profile-pic-post-review {
+		width: 40px;
+		height: 40px;
+	}
+
+	.blog-post-title {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.blog-poster-date {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.blog-post-heading {
+		margin-left: 1rem;
+	}
+
+	/* #post-review {
+		margin: 0 2rem;
+	} */
+}
